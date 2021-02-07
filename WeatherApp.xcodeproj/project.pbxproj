@@ -13,6 +13,8 @@
 		FEDF53A925CF85EB00FC2489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDF53A725CF85EB00FC2489 /* Main.storyboard */; };
 		FEDF53AB25CF85EB00FC2489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDF53AA25CF85EB00FC2489 /* Assets.xcassets */; };
 		FEDF53AE25CF85EB00FC2489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDF53AC25CF85EB00FC2489 /* LaunchScreen.storyboard */; };
+		FEDF53B925CF92DB00FC2489 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDF53B825CF92DB00FC2489 /* CurrentWeather.swift */; };
+		FEDF53BC25CF939E00FC2489 /* WeatherIconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDF53BB25CF939E00FC2489 /* WeatherIconManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FEDF53AA25CF85EB00FC2489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEDF53AD25CF85EB00FC2489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEDF53AF25CF85EB00FC2489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDF53B825CF92DB00FC2489 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		FEDF53BB25CF939E00FC2489 /* WeatherIconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherIconManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				FEDF53AA25CF85EB00FC2489 /* Assets.xcassets */,
 				FEDF53AC25CF85EB00FC2489 /* LaunchScreen.storyboard */,
 				FEDF53AF25CF85EB00FC2489 /* Info.plist */,
+				FEDF53B825CF92DB00FC2489 /* CurrentWeather.swift */,
+				FEDF53BB25CF939E00FC2489 /* WeatherIconManager.swift */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				FEDF53A625CF85EB00FC2489 /* ViewController.swift in Sources */,
 				FEDF53A225CF85EB00FC2489 /* AppDelegate.swift in Sources */,
+				FEDF53BC25CF939E00FC2489 /* WeatherIconManager.swift in Sources */,
+				FEDF53B925CF92DB00FC2489 /* CurrentWeather.swift in Sources */,
 				FEDF53A425CF85EB00FC2489 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
