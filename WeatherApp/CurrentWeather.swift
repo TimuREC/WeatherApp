@@ -18,8 +18,20 @@ struct CurrentWeather {
 //	let locationLabel: Double
 //	let refreshButton: Double
 	
+}
+
+extension CurrentWeather {
 	
-	
-	
-	
+	var pressureString: String {
+		return "\(Int(pressure)) mm"
+	}
+	var humidityString: String {
+		return "\(Int(humidity))%"
+	}
+	var temperatureString: String {
+		return "\(Int(temperature))ºC"
+	}
+	var appearentTemperatureString: String {
+		return "Feels like: \(Int(appearentTemperature))ºC"
+	}
 }
