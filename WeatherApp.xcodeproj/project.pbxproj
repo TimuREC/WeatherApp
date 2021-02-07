@@ -15,6 +15,11 @@
 		FEDF53AE25CF85EB00FC2489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDF53AC25CF85EB00FC2489 /* LaunchScreen.storyboard */; };
 		FEDF53B925CF92DB00FC2489 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDF53B825CF92DB00FC2489 /* CurrentWeather.swift */; };
 		FEDF53BC25CF939E00FC2489 /* WeatherIconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDF53BB25CF939E00FC2489 /* WeatherIconManager.swift */; };
+		FEDF53BF25CFA12D00FC2489 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDF53BE25CFA12D00FC2489 /* APIManager.swift */; };
+		FEDF53C225CFA48300FC2489 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDF53C125CFA48300FC2489 /* ErrorManager.swift */; };
+		FEDF53C525CFA89600FC2489 /* APIWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDF53C425CFA89600FC2489 /* APIWeatherManager.swift */; };
+		FEDF53C825CFB92900FC2489 /* ParticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDF53C725CFB92900FC2489 /* ParticlesView.swift */; };
+		FEDF53CB25CFB96F00FC2489 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = FEDF53CA25CFB96F00FC2489 /* MyParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		FEDF53AF25CF85EB00FC2489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEDF53B825CF92DB00FC2489 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		FEDF53BB25CF939E00FC2489 /* WeatherIconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherIconManager.swift; sourceTree = "<group>"; };
+		FEDF53BE25CFA12D00FC2489 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		FEDF53C125CFA48300FC2489 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		FEDF53C425CFA89600FC2489 /* APIWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIWeatherManager.swift; sourceTree = "<group>"; };
+		FEDF53C725CFB92900FC2489 /* ParticlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticlesView.swift; sourceTree = "<group>"; };
+		FEDF53CA25CFB96F00FC2489 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +79,11 @@
 				FEDF53AF25CF85EB00FC2489 /* Info.plist */,
 				FEDF53B825CF92DB00FC2489 /* CurrentWeather.swift */,
 				FEDF53BB25CF939E00FC2489 /* WeatherIconManager.swift */,
+				FEDF53BE25CFA12D00FC2489 /* APIManager.swift */,
+				FEDF53C425CFA89600FC2489 /* APIWeatherManager.swift */,
+				FEDF53C125CFA48300FC2489 /* ErrorManager.swift */,
+				FEDF53C725CFB92900FC2489 /* ParticlesView.swift */,
+				FEDF53CA25CFB96F00FC2489 /* MyParticle.sks */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -133,6 +148,7 @@
 				FEDF53AE25CF85EB00FC2489 /* LaunchScreen.storyboard in Resources */,
 				FEDF53AB25CF85EB00FC2489 /* Assets.xcassets in Resources */,
 				FEDF53A925CF85EB00FC2489 /* Main.storyboard in Resources */,
+				FEDF53CB25CFB96F00FC2489 /* MyParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,11 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEDF53BF25CFA12D00FC2489 /* APIManager.swift in Sources */,
 				FEDF53A625CF85EB00FC2489 /* ViewController.swift in Sources */,
+				FEDF53C825CFB92900FC2489 /* ParticlesView.swift in Sources */,
+				FEDF53C225CFA48300FC2489 /* ErrorManager.swift in Sources */,
 				FEDF53A225CF85EB00FC2489 /* AppDelegate.swift in Sources */,
 				FEDF53BC25CF939E00FC2489 /* WeatherIconManager.swift in Sources */,
 				FEDF53B925CF92DB00FC2489 /* CurrentWeather.swift in Sources */,
 				FEDF53A425CF85EB00FC2489 /* SceneDelegate.swift in Sources */,
+				FEDF53C525CFA89600FC2489 /* APIWeatherManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
